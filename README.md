@@ -1,39 +1,110 @@
 # GymDex iOS
 
-Aplicativo iOS em SwiftUI para academia com:
+GymDex e um prototipo de aplicativo iOS para academia, feito em SwiftUI, com foco em treino, nutricao, acompanhamento diario e gamificacao.
 
-- criacao de ficha de treino
-- contador de calorias consumidas e gastas
-- analisador textual de comida com estimativa de calorias
-- biblioteca de videos por exercicio
-- contador de passos
-- area de motivacao com inicial que evolui por batalhas
-- captura de novos pokemons por treino diario
+## O que o app faz
 
-## Estrutura
+- Criacao de ficha de treino
+- Cadastro de exercicios por ficha
+- Registro de treino concluido no dia
+- Contador de calorias consumidas e gastas
+- Analisador textual de comida com estimativa calorica
+- Biblioteca de videos para execucao dos exercicios
+- Contador de passos
+- Area de motivacao com inicial que evolui ao vencer batalhas
+- Captura de novos pokemons por consistencia nos treinos
 
-- `GymDex.xcodeproj`: projeto para abrir no Xcode
-- `GymDex/`: codigo-fonte SwiftUI
+## Conceito de gamificacao
 
-## Como abrir
+O app usa um sistema de motivacao inspirado em evolucao e captura:
 
-1. Copie a pasta para um Mac com Xcode 16 ou superior.
+- O usuario escolhe um inicial
+- O inicial ganha XP quando o treino do dia e registrado
+- As batalhas so acontecem quando o usuario realmente treina no dia
+- O inicial evolui conforme o progresso
+- Novos pokemons sao capturados com base em dias unicos de treino
+
+## Stack
+
+- Swift
+- SwiftUI
+- `UserDefaults` para persistencia local simples
+
+## Estrutura do projeto
+
+```text
+GymDex-iOS/
+├── GymDex.xcodeproj/
+├── GymDex/
+│   ├── GymDexApp.swift
+│   ├── ContentView.swift
+│   ├── Info.plist
+│   ├── Models/
+│   │   └── AppModels.swift
+│   ├── ViewModels/
+│   │   └── AppStore.swift
+│   └── Views/
+│       ├── DashboardView.swift
+│       ├── WorkoutPlansView.swift
+│       ├── NutritionView.swift
+│       ├── VideoLibraryView.swift
+│       └── MotivationView.swift
+└── README.md
+```
+
+## Principais areas
+
+### Treino
+
+- Cria fichas de treino
+- Adiciona exercicios com series, repeticoes, descanso e video
+- Marca treinos concluidos
+
+### Nutricao
+
+- Registra refeicoes manualmente
+- Faz analise textual de alimentos
+- Calcula saldo calorico do dia
+
+### Videos
+
+- Lista links para videos de execucao dos exercicios
+
+### Passos
+
+- Permite atualizacao manual da contagem diaria
+- Estrutura pronta para futura integracao com HealthKit
+
+### Motivacao
+
+- Escolha de inicial
+- Evolucao por XP
+- Log de batalhas
+- Captura desbloqueada por frequencia de treino
+
+## Como abrir no Xcode
+
+1. Copie a pasta do projeto para um Mac.
 2. Abra `GymDex.xcodeproj`.
-3. Defina seu `Development Team` em Signing & Capabilities.
-4. Rode em simulador iPhone ou em um aparelho real.
+3. Configure seu `Development Team` em Signing & Capabilities.
+4. Rode no simulador ou em um iPhone.
 
-## Funcionalidades entregues
+## Limitacoes atuais
 
-- Treino: cria fichas, adiciona exercicios e registra treino do dia.
-- Nutricao: registra refeicoes, analisa texto e calcula saldo calorico.
-- Videos: abre links para execucao dos exercicios.
-- Passos: atualizacao manual, pronta para HealthKit.
-- Motivacao: inicial evolui por treino; capturas liberadas a cada 3 dias.
+- O contador de passos ainda e manual
+- A analise de comida e textual e baseada em estimativa local
+- Os videos sao acessados por link externo
+- A persistencia ainda usa `UserDefaults`
 
 ## Proximos passos recomendados
 
-1. Integrar HealthKit para passos reais e calorias.
-2. Trocar o analisador textual por visao computacional ou API de alimentos.
-3. Adicionar banco local com SwiftData.
-4. Criar tela dedicada para detalhes do exercicio e player embutido.
-5. Revisar a parte tematica de Pokemon se o app for publicado comercialmente.
+1. Integrar HealthKit para passos e gasto calorico real.
+2. Adicionar camera e analise de comida por imagem.
+3. Migrar persistencia para SwiftData ou Core Data.
+4. Criar player nativo de videos dentro do app.
+5. Refinar design, onboarding e metas personalizadas.
+6. Revisar o uso comercial da tematica Pokemon antes de publicacao.
+
+## Licenca
+
+Este projeto esta sob a licenca MIT. Veja `LICENSE`.
