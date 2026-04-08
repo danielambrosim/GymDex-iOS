@@ -1,0 +1,211 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [ 3 0 R 5 0 R ] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2296 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+(GymDex Prompts Parte 2) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(7. Analisador de comida por texto e imagem) Tj
+0 -16 Td
+(Quero evoluir o analisador de comida do GymDex.) Tj
+0 -16 Td
+(Fase 1:) Tj
+0 -16 Td
+(- melhorar bastante o analisador textual atual) Tj
+0 -16 Td
+(- suportar m?ltiplos alimentos) Tj
+0 -16 Td
+(- estimar macros al?m de calorias) Tj
+0 -16 Td
+(- permitir corre??o manual do resultado) Tj
+0 -16 Td
+(Fase 2:) Tj
+0 -16 Td
+(- estruturar o projeto para futura an?lise por imagem usando c?mera ou API) Tj
+0 -16 Td
+(- mesmo que eu ainda n?o tenha a API final, deixe a arquitetura pronta) Tj
+0 -16 Td
+(- crie interfaces e servi?os para plugar vis?o computacional depois) Tj
+0 -16 Td
+(Fa?a a implementa??o poss?vel agora e deixe claramente preparado o que depender? de) Tj
+0 -16 Td
+(integra??o futura.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(8. V?deos de exerc?cios com boa experi?ncia) Tj
+0 -16 Td
+(Quero melhorar a ?rea de v?deos de exerc?cios no app Flutter.) Tj
+0 -16 Td
+(Implemente:) Tj
+0 -16 Td
+(- cat?logo de v?deos por exerc?cio) Tj
+0 -16 Td
+(- busca por nome) Tj
+0 -16 Td
+(- filtro por grupo muscular) Tj
+0 -16 Td
+(- tela de detalhes do exerc?cio) Tj
+0 -16 Td
+(- abertura do v?deo com melhor experi?ncia poss?vel) Tj
+0 -16 Td
+(- rela??o direta entre exerc?cio da ficha e v?deo correspondente) Tj
+0 -16 Td
+(Se houver limita??o de embed por plataforma, trate isso da melhor forma e documente.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(9. Passos e atividade f?sica) Tj
+0 -16 Td
+(Quero deixar a ?rea de passos pronta para uso real.) Tj
+0 -16 Td
+(No Flutter:) Tj
+0 -16 Td
+(- manter contador manual como fallback) Tj
+0 -16 Td
+(- estruturar integra??o futura com ped?metro/Google Fit/HealthKit) Tj
+0 -16 Td
+(- criar uma camada de servi?o para sensores ou APIs de atividade) Tj
+0 -16 Td
+(- mostrar passos di?rios, calorias estimadas e hist?rico) Tj
+0 -16 Td
+(- preparar o app para sincroniza??o real depois) Tj
+0 -16 Td
+(Se a integra??o completa n?o puder ser finalizada agora, deixe o c?digo preparado da forma) Tj
+0 -16 Td
+(correta.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(10. Gamifica??o realmente boa) Tj
+0 -16 Td
+(Quero transformar a gamifica??o do GymDex em um sistema viciante e consistente, mantendo a) Tj
+0 -16 Td
+(inspira??o atual de inicial, evolu??o, batalhas e captura.) Tj
+0 -16 Td
+(Melhore:) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1852 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+(GymDex Prompts Parte 2) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(- l?gica de XP) Tj
+0 -16 Td
+(- evolu??o por marcos) Tj
+0 -16 Td
+(- batalhas ligadas a treino real) Tj
+0 -16 Td
+(- streaks) Tj
+0 -16 Td
+(- recompensas por consist?ncia) Tj
+0 -16 Td
+(- captura de novos pok?mons por rotina de treino) Tj
+0 -16 Td
+(- feedback visual de progresso) Tj
+0 -16 Td
+(- balanceamento do sistema) Tj
+0 -16 Td
+(Importante:) Tj
+0 -16 Td
+(- a mec?nica deve fazer sentido) Tj
+0 -16 Td
+(- n?o quero algo infantil demais nem confuso) Tj
+0 -16 Td
+(- quero motiva??o real de uso di?rio) Tj
+0 -16 Td
+(- organize a l?gica para que eu possa trocar o tema Pok?mon no futuro se necess?rio) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(11. Remover risco de propriedade intelectual) Tj
+0 -16 Td
+(Quero revisar a gamifica??o inspirada em Pok?mon para reduzir risco de propriedade) Tj
+0 -16 Td
+(intelectual.) Tj
+0 -16 Td
+(Analise o app e:) Tj
+0 -16 Td
+(- identifique elementos que podem gerar problema comercial) Tj
+0 -16 Td
+(- proponha uma vers?o original da mec?nica) Tj
+0 -16 Td
+(- substitua nomes, termos, criaturas, progress?es e identidade visual por um sistema pr?prio) Tj
+0 -16 Td
+(- mantenha a motiva??o e a sensa??o de evolu??o/captura) Tj
+0 -16 Td
+(- fa?a as altera??es diretamente no c?digo, textos e estrutura de dados) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(12. Configura??es do usu?rio) Tj
+0 -16 Td
+(Quero uma ?rea de configura??es completa no app Flutter.) Tj
+0 -16 Td
+(Implemente:) Tj
+0 -16 Td
+(- meta de calorias) Tj
+0 -16 Td
+(- meta de passos) Tj
+0 -16 Td
+(- objetivo principal do usu?rio) Tj
+0 -16 Td
+(- escolha de tema) Tj
+0 -16 Td
+(- nome do usu?rio) Tj
+0 -16 Td
+(- prefer?ncias da gamifica??o) Tj
+0 -16 Td
+(- reset seguro de progresso) Tj
+0 -16 Td
+(Requisitos:) Tj
+0 -16 Td
+(- persist?ncia local) Tj
+0 -16 Td
+(- UX simples) Tj
+0 -16 Td
+(- organizada e pronta para crescer) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000123 00000 n 
+0000000249 00000 n 
+0000002597 00000 n 
+0000002723 00000 n 
+0000004627 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+4697
+%%EOF

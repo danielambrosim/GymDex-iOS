@@ -1,0 +1,274 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 3 /Kids [ 3 0 R 5 0 R 7 0 R ] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1789 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+(GymDex Prompts Parte 3) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(13. Testes) Tj
+0 -16 Td
+(Quero adicionar testes de qualidade no projeto Flutter.) Tj
+0 -16 Td
+(Implemente:) Tj
+0 -16 Td
+(- testes unit?rios para regras de neg?cio) Tj
+0 -16 Td
+(- testes para c?lculo de calorias) Tj
+0 -16 Td
+(- testes para l?gica de treino) Tj
+0 -16 Td
+(- testes para evolu??o, batalhas e capturas) Tj
+0 -16 Td
+(- testes b?sicos de widgets para telas principais) Tj
+0 -16 Td
+(Depois:) Tj
+0 -16 Td
+(- diga exatamente como rodar os testes) Tj
+0 -16 Td
+(- aponte qualquer lacuna que ainda reste) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(14. Prepara??o para publica??o) Tj
+0 -16 Td
+(Quero preparar o app Flutter para publica??o futura.) Tj
+0 -16 Td
+(Fa?a:) Tj
+0 -16 Td
+(- revis?o de nomes, ?cones, bundle ids e estrutura) Tj
+0 -16 Td
+(- preparar assets e placeholders corretos) Tj
+0 -16 Td
+(- checar textos e consist?ncia) Tj
+0 -16 Td
+(- revisar permiss?es) Tj
+0 -16 Td
+(- deixar configura??o pronta para Android e desktop) Tj
+0 -16 Td
+(- criar checklist de publica??o) Tj
+0 -16 Td
+(No final:) Tj
+0 -16 Td
+(- entregue uma lista objetiva do que ainda depender? de contas, certificados ou APIs) Tj
+0 -16 Td
+(externas) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(15. README profissional) Tj
+0 -16 Td
+(Quero um README de n?vel profissional para o GitHub deste projeto.) Tj
+0 -16 Td
+(Atualize o README com:) Tj
+0 -16 Td
+(- descri??o clara do produto) Tj
+0 -16 Td
+(- plataformas suportadas) Tj
+0 -16 Td
+(- arquitetura) Tj
+0 -16 Td
+(- stack) Tj
+0 -16 Td
+(- instru??es de setup) Tj
+0 -16 Td
+(- roadmap) Tj
+0 -16 Td
+(- screenshots placeholders) Tj
+0 -16 Td
+(- status do projeto) Tj
+0 -16 Td
+(- como contribuir) Tj
+0 -16 Td
+(- riscos e limita??es atuais) Tj
+0 -16 Td
+(Fa?a um README que fique bonito e s?rio no GitHub.) Tj
+0 -16 Td
+() Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1791 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+(GymDex Prompts Parte 3) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(16. CI/CD) Tj
+0 -16 Td
+(Quero configurar CI para o projeto no GitHub.) Tj
+0 -16 Td
+(Implemente:) Tj
+0 -16 Td
+(- workflow para validar Flutter) Tj
+0 -16 Td
+(- lint) Tj
+0 -16 Td
+(- testes) Tj
+0 -16 Td
+(- checagem b?sica do projeto) Tj
+0 -16 Td
+(- estrutura pronta para build futura) Tj
+0 -16 Td
+(Se poss?vel, adicione GitHub Actions com organiza??o limpa e explica??o curta.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(17. Revis?o final completa) Tj
+0 -16 Td
+(Fa?a uma revis?o final completa do projeto GymDex Flutter com mentalidade de release.) Tj
+0 -16 Td
+(Quero que voc?:) Tj
+0 -16 Td
+(- procure bugs) Tj
+0 -16 Td
+(- procure fluxos incompletos) Tj
+0 -16 Td
+(- revise UX) Tj
+0 -16 Td
+(- revise arquitetura) Tj
+0 -16 Td
+(- revise consist?ncia visual) Tj
+0 -16 Td
+(- revise persist?ncia) Tj
+0 -16 Td
+(- revise textos) Tj
+0 -16 Td
+(- revise riscos de publica??o) Tj
+0 -16 Td
+(Entregue:) Tj
+0 -16 Td
+(- findings por severidade) Tj
+0 -16 Td
+(- arquivos afetados) Tj
+0 -16 Td
+(- corre??es sugeridas) Tj
+0 -16 Td
+(- e, se poss?vel, j? aplique as corre??es mais importantes) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(18. Execu??o aut?noma m?xima) Tj
+0 -16 Td
+(Quero que voc? atue como engenheiro principal deste projeto e leve o GymDex Flutter o mais) Tj
+0 -16 Td
+(perto poss?vel de uma vers?o pronta para uso real.) Tj
+0 -16 Td
+(Regras:) Tj
+0 -16 Td
+(- analise o reposit?rio inteiro) Tj
+0 -16 Td
+(- tome decis?es t?cnicas pragm?ticas) Tj
+0 -16 Td
+(- implemente melhorias concretas) Tj
+0 -16 Td
+(- n?o pare em an?lise superficial) Tj
+0 -16 Td
+(- preserve o conceito do produto) Tj
+0 -16 Td
+(- priorize qualidade, clareza e escalabilidade) Tj
+0 -16 Td
+(Ao final:) Tj
+0 -16 Td
+(- mostre o que foi implementado) Tj
+0 -16 Td
+(- o que ficou pendente) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 791 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+(GymDex Prompts Parte 3) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(- e o que voc? recomenda como pr?ximo passo) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Ordem recomendada:) Tj
+0 -16 Td
+(1. Auditoria inicial) Tj
+0 -16 Td
+(2. Estruturar a vers?o multiplataforma principal) Tj
+0 -16 Td
+(3. Melhorar o design) Tj
+0 -16 Td
+(4. Persist?ncia robusta) Tj
+0 -16 Td
+(5. Sistema real de treino) Tj
+0 -16 Td
+(6. Nutri??o) Tj
+0 -16 Td
+(7. Analisador de comida) Tj
+0 -16 Td
+(8. V?deos) Tj
+0 -16 Td
+(9. Passos) Tj
+0 -16 Td
+(10. Gamifica??o) Tj
+0 -16 Td
+(11. Remover risco de IP) Tj
+0 -16 Td
+(12. Configura??es) Tj
+0 -16 Td
+(13. Testes) Tj
+0 -16 Td
+(14. Prepara??o para publica??o) Tj
+0 -16 Td
+(15. README) Tj
+0 -16 Td
+(16. CI/CD) Tj
+0 -16 Td
+(17. Revis?o final) Tj
+0 -16 Td
+(18. Execu??o aut?noma m?xima) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000129 00000 n 
+0000000255 00000 n 
+0000002096 00000 n 
+0000002222 00000 n 
+0000004065 00000 n 
+0000004191 00000 n 
+0000005033 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+5103
+%%EOF

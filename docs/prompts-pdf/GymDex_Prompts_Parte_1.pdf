@@ -1,0 +1,248 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 3 /Kids [ 3 0 R 5 0 R 7 0 R ] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2327 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+(GymDex Prompts Parte 1) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(1. Auditoria inicial) Tj
+0 -16 Td
+(Abra o reposit?rio local `GymDex-iOS`, leia toda a estrutura atual e fa?a uma auditoria) Tj
+0 -16 Td
+(t?cnica completa do projeto.) Tj
+0 -16 Td
+(Quero que voc?:) Tj
+0 -16 Td
+(- identifique o que j? est? implementado) Tj
+0 -16 Td
+(- identifique o que est? incompleto, fr?gil ou apenas prototipado) Tj
+0 -16 Td
+(- separe claramente a base iOS SwiftUI da base Flutter) Tj
+0 -16 Td
+(- aponte riscos de arquitetura, persist?ncia, UX, performance, escalabilidade e publica??o) Tj
+0 -16 Td
+(- proponha uma ordem de execu??o para concluir o app com qualidade de produ??o) Tj
+0 -16 Td
+(Entregue:) Tj
+0 -16 Td
+(- diagn?stico objetivo) Tj
+0 -16 Td
+(- lista priorizada de problemas) Tj
+0 -16 Td
+(- plano de execu??o em fases) Tj
+0 -16 Td
+(- sem alterar c?digo ainda) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(2. Estruturar a vers?o multiplataforma principal) Tj
+0 -16 Td
+(Quero transformar a base Flutter em produto principal para Android, Windows e Linux,) Tj
+0 -16 Td
+(mantendo a base iOS SwiftUI apenas como refer?ncia inicial.) Tj
+0 -16 Td
+(Trabalhe no reposit?rio local e:) Tj
+0 -16 Td
+(- gere ou complete a estrutura Flutter nativa faltante) Tj
+0 -16 Td
+(- organize o projeto Flutter em arquitetura limpa e escal?vel) Tj
+0 -16 Td
+(- separe `models`, `state`, `services`, `features`, `widgets` e `theme`) Tj
+0 -16 Td
+(- preserve as funcionalidades j? existentes) Tj
+0 -16 Td
+(- prepare o projeto para crescer sem bagun?a) Tj
+0 -16 Td
+(Depois:) Tj
+0 -16 Td
+(- fa?a as altera??es necess?rias) Tj
+0 -16 Td
+(- explique a nova estrutura) Tj
+0 -16 Td
+(- diga exatamente quais arquivos foram criados ou alterados) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(3. Melhorar o design para n?vel de app real) Tj
+0 -16 Td
+(Quero que voc? redesenhe a interface do GymDex Flutter para ficar com apar?ncia de) Tj
+0 -16 Td
+(aplicativo real, premium e moderno, n?o com cara de prot?tipo.) Tj
+0 -16 Td
+(Objetivos:) Tj
+0 -16 Td
+(- visual forte e consistente) Tj
+0 -16 Td
+(- boa hierarquia visual) Tj
+0 -16 Td
+(- ?tima experi?ncia em mobile e desktop) Tj
+0 -16 Td
+(- telas mais bonitas para treino, nutri??o, v?deos, passos e motiva??o) Tj
+0 -16 Td
+(- componentes reutiliz?veis) Tj
+0 -16 Td
+(- tema claro bem trabalhado) Tj
+0 -16 Td
+(- sem visual gen?rico ou sem gra?a) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1977 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+(GymDex Prompts Parte 1) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Fa?a as altera??es diretamente no c?digo e depois resuma:) Tj
+0 -16 Td
+(- o conceito visual escolhido) Tj
+0 -16 Td
+(- as principais melhorias de UX) Tj
+0 -16 Td
+(- o que mudou estruturalmente) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(4. Persist?ncia robusta) Tj
+0 -16 Td
+(Quero substituir qualquer persist?ncia fr?gil por uma solu??o local robusta no Flutter.) Tj
+0 -16 Td
+(No projeto:) Tj
+0 -16 Td
+(- avalie se vale usar Hive, Isar ou SQLite) Tj
+0 -16 Td
+(- escolha a op??o mais adequada para este app) Tj
+0 -16 Td
+(- implemente persist?ncia real para treino, refei??es, passos, progresso do inicial,) Tj
+0 -16 Td
+(capturas e hist?rico de batalhas) Tj
+0 -16 Td
+(- fa?a migra??o limpa da estrutura atual) Tj
+0 -16 Td
+(- deixe a camada de dados desacoplada da UI) Tj
+0 -16 Td
+(Depois:) Tj
+0 -16 Td
+(- explique a escolha t?cnica) Tj
+0 -16 Td
+(- mostre como os dados fluem) Tj
+0 -16 Td
+(- liste o que foi alterado) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(5. Sistema real de treino) Tj
+0 -16 Td
+(Quero transformar a ?rea de treino em um sistema realmente ?til para academia.) Tj
+0 -16 Td
+(Implemente no app Flutter:) Tj
+0 -16 Td
+(- cria??o e edi??o de fichas) Tj
+0 -16 Td
+(- agrupamento por dia, objetivo ou grupo muscular) Tj
+0 -16 Td
+(- cria??o, edi??o e remo??o de exerc?cios) Tj
+0 -16 Td
+(- s?ries, repeti??es, carga, descanso e observa??es) Tj
+0 -16 Td
+(- marca??o de treino conclu?do) Tj
+0 -16 Td
+(- hist?rico de treinos realizados) Tj
+0 -16 Td
+(- progresso por exerc?cio) Tj
+0 -16 Td
+(Requisitos:) Tj
+0 -16 Td
+(- UX clara e r?pida) Tj
+0 -16 Td
+(- persist?ncia local completa) Tj
+0 -16 Td
+(- c?digo organizado) Tj
+0 -16 Td
+(- sem quebrar as demais ?reas do app) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(6. Nutri??o e contador de calorias melhores) Tj
+0 -16 Td
+(Quero profissionalizar a ?rea de nutri??o do GymDex Flutter.) Tj
+0 -16 Td
+(Implemente:) Tj
+0 -16 Td
+(- cadastro manual de refei??es) Tj
+0 -16 Td
+(- refei??es por hor?rio) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 431 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+(GymDex Prompts Parte 1) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(- totais di?rios de calorias, prote?nas, carboidratos e gorduras) Tj
+0 -16 Td
+(- meta di?ria configur?vel) Tj
+0 -16 Td
+(- hist?rico por dia) Tj
+0 -16 Td
+(- resumo visual do consumo) Tj
+0 -16 Td
+(Se necess?rio:) Tj
+0 -16 Td
+(- reorganize modelos e telas) Tj
+0 -16 Td
+(- melhore a navega??o) Tj
+0 -16 Td
+(- crie componentes espec?ficos para essa ?rea) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000129 00000 n 
+0000000255 00000 n 
+0000002634 00000 n 
+0000002760 00000 n 
+0000004789 00000 n 
+0000004915 00000 n 
+0000005397 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+5467
+%%EOF
