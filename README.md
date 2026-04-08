@@ -1,6 +1,11 @@
-# GymDex iOS
+# GymDex
 
-GymDex e um prototipo de aplicativo iOS para academia, feito em SwiftUI, com foco em treino, nutricao, acompanhamento diario e gamificacao.
+GymDex e um prototipo de aplicativo para academia com foco em treino, nutricao, acompanhamento diario e gamificacao.
+
+Este repositorio agora contem duas bases:
+
+- `GymDex/` e `GymDex.xcodeproj/`: app iOS em SwiftUI
+- `gymdex_flutter/`: app multiplataforma para Android, Windows e Linux
 
 ## O que o app faz
 
@@ -24,11 +29,20 @@ O app usa um sistema de motivacao inspirado em evolucao e captura:
 - O inicial evolui conforme o progresso
 - Novos pokemons sao capturados com base em dias unicos de treino
 
-## Stack
+## Stacks
+
+### iOS
 
 - Swift
 - SwiftUI
-- `UserDefaults` para persistencia local simples
+- `UserDefaults`
+
+### Multiplataforma
+
+- Flutter
+- Dart
+- `shared_preferences`
+- `url_launcher`
 
 ## Estrutura do projeto
 
@@ -36,19 +50,11 @@ O app usa um sistema de motivacao inspirado em evolucao e captura:
 GymDex-iOS/
 ├── GymDex.xcodeproj/
 ├── GymDex/
-│   ├── GymDexApp.swift
-│   ├── ContentView.swift
-│   ├── Info.plist
-│   ├── Models/
-│   │   └── AppModels.swift
-│   ├── ViewModels/
-│   │   └── AppStore.swift
-│   └── Views/
-│       ├── DashboardView.swift
-│       ├── WorkoutPlansView.swift
-│       ├── NutritionView.swift
-│       ├── VideoLibraryView.swift
-│       └── MotivationView.swift
+├── gymdex_flutter/
+│   ├── lib/
+│   ├── pubspec.yaml
+│   └── README.md
+├── LICENSE
 └── README.md
 ```
 
@@ -82,12 +88,26 @@ GymDex-iOS/
 - Log de batalhas
 - Captura desbloqueada por frequencia de treino
 
-## Como abrir no Xcode
+## Como rodar no iOS
 
 1. Copie a pasta do projeto para um Mac.
 2. Abra `GymDex.xcodeproj`.
 3. Configure seu `Development Team` em Signing & Capabilities.
 4. Rode no simulador ou em um iPhone.
+
+## Como rodar no Android, Windows e Linux
+
+1. Instale o Flutter SDK.
+2. Entre em `gymdex_flutter/`.
+3. Rode `flutter create .` para gerar as pastas nativas.
+4. Rode `flutter pub get`.
+5. Execute conforme a plataforma:
+
+```bash
+flutter run -d android
+flutter run -d windows
+flutter run -d linux
+```
 
 ## Limitacoes atuais
 
@@ -95,6 +115,7 @@ GymDex-iOS/
 - A analise de comida e textual e baseada em estimativa local
 - Os videos sao acessados por link externo
 - A persistencia ainda usa `UserDefaults`
+- A base Flutter precisa gerar os runners nativos com `flutter create .`
 
 ## Proximos passos recomendados
 

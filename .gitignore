@@ -48,3 +48,12 @@ fastlane/test_output/
 
 # Logs
 *.log
+
+# Flutter
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+**/flutter_*.png
+**/generated_plugin_registrant.dart
